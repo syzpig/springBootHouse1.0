@@ -14,8 +14,8 @@
     <bytecodeTargetLevel>
       <module name="house-biz" target="1.8" />
       <module name="house-common" target="1.8" />
+      <module name="house-parent" target="1.8" />
       <module name="house-web" target="1.8" />
-      <module name="springBootHouse1.0" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
