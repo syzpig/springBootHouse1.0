@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+   <!-- 引入父类依赖-->
+	<parent>
+		<groupId>com.mooc.house</groupId>
+		<artifactId>house-parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<!--<relativePath>../pom.xml</relativePath>-->
+	</parent>
+
+	<artifactId>house-biz</artifactId>
+	<name>house-biz</name>
+    <!--哪个网站可以找到这个项目,提示如果 Maven 资源列表没有，可以直接上该网站寻找, Maven 产生的文档用-->
+    <!--<url>http://maven.apache.org</url>-->
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<!--<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>-->
+        <!--引用house-common模块-->
+		<dependency>
+			<groupId>com.mooc.house</groupId>
+			<artifactId>house-common</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+
+	</dependencies>
+</project>

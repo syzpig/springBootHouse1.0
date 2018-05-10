@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mooc.house</groupId>
+    <artifactId>house-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>house</name>
+    <description>房产销售平台</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+    <!--引入springboot架包  通过scope=import的方式引入
+    在很多时候我们需要继承自有的父工程或由于其他设置无法使用Spring Boot提供的父工程。此时可以通过scope=import的方式进行引入，如下：-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>1.4.7.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <!--指定JDK版本和编码-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <!-- use the Java 8 language features -->
+                    <source>1.8</source>
+                    <!-- want the compiled classes to be compatible with JVM 1.8 -->
+                    <target>1.8</target>
+                    <!-- The -encoding argument for the Java compiler. -->
+                   <!-- <encoding>UTF8</encoding>-->
+                </configuration>
+            </plugin>
+            <!--https://www.cnblogs.com/zmc/p/6375190.html
+            今天领导说要把项目通过maven生产源码包和文档包并发布到自己的私服上，经过查看mavne官网发现有两个maven插件可以做到这些工作，
+            一个是maven-source-plugin，另一个是maven-javadoc-plugin，
+            生成sources源码包的插件
+            提供项目自动将源码打包并发布的功能，在需要发布源码项目的pom.xml文件中添加如下代码即可
+            以下几个命令
+            执行 mvn install，maven会自动将source install到repository 。
+            执行 mvn deploy，maven会自动将source deploy到remote-repository 。
+            执行 mvn source:jar，单独打包源码。
+            注意：在多项目构建中，将source-plugin置于顶层或parent的pom中并不会发挥作用，必须置于具体项目的pom中。
+            -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>2.4</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+
+    <modules>
+        <module>house-common</module>
+        <module>house-biz</module>
+        <module>house-web</module>
+    </modules>
+</project>

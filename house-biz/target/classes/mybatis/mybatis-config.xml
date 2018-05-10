@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--Configuration就像是Mybatis的总管，Mybatis的所有配置信息都存放在这里，此外，它还提供了设置这些配置信息的方法。Configuration可以从配置文件里获取属性值，也可以通过程序直接设置-->
+<configuration>
+    <settings>
+         <!-- 配置关闭缓存  -->
+         <setting name="cacheEnabled" value="false"/>
+        <!--支持属性使用驼峰命名-->
+         <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--主键自增长-->
+         <setting name="useGeneratedKeys" value="true"/>
+        <!--配置和设定执行器，SIMPLE 执行器执行其它语句。REUSE 执行器可能重复使用prepared statements 语句，BATCH执行器可以重复执行语句和批量更新。-->
+        <setting name="defaultExecutorType" value="REUSE"/>
+         <!-- 事务超时时间 -->
+         <setting name="defaultStatementTimeout" value="600"/>
+    </settings>
+
+    <!--配置类型别名，可以在xml中用别名取代全限定名-->
+    <typeAliases>
+       <typeAlias type="com.mooc.house.common.model.User" alias="user" />
+    </typeAliases>
+
+    <!--加载mapper文件-->
+    <mappers>
+       <mapper resource="mapper/user.xml" />
+    </mappers>
+
+</configuration>
