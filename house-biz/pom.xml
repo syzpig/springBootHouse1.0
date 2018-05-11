@@ -32,18 +32,18 @@
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 
-
+		<!--引用外部连接池druid第一步-->
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
 			<version>1.1.0</version>
 		</dependency>
-
+		<!--引入mysql驱动架包-->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
-
+		<!--引入mybatis架包-->
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
