@@ -2,89 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="539b18e6-a520-4038-af75-ec3b6c2541af" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_6_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_6_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_6_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_1_4_7_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_1_4_7_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/mapper/AgencyMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/AgencyService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/FileService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/MailService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-biz/src/main/resources/mapper/agency.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/HashUtils/BeanHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/HashUtils/HashUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/constants/CommonConstants.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/constants/HouseUserType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/model/Agency.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/model/Blog.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/model/City.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/model/Comment.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/model/Community.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/model/House.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/model/HouseUser.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/model/UserMsg.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/result/ResultMsg.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/HomepageController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/LoginController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/UserHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/file/用户注册流程.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/interceptor/AuthActionInterceptor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/interceptor/AuthInterceptor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/interceptor/UserContext.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/interceptor/WebMvcConf.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/interceptor/file/spring拦截器步骤.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/interceptor/file/鉴权流程.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/house/add.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/house/listing.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/house/ownlist.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/house/profile.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/user/accounts/profile.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/user/accounts/register.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/user/accounts/registerSubmit.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/user/accounts/remember.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/user/accounts/reset.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/user/accounts/signin.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/user/agency/agencyDetail.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/user/agency/agencyList.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/user/agency/agentList.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/user/agency/create.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/user/agent/agentDetail.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/user/agent/agentList.ftl" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/house-biz/house-biz.iml" afterPath="$PROJECT_DIR$/house-biz/house-biz.iml" />
-      <change beforePath="$PROJECT_DIR$/house-biz/pom.xml" afterPath="$PROJECT_DIR$/house-biz/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/mapper/UserMapper.java" />
       <change beforePath="$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/UserService.java" afterPath="$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/house-biz/src/main/resources/mapper/user.xml" afterPath="$PROJECT_DIR$/house-biz/src/main/resources/mapper/user.xml" />
-      <change beforePath="$PROJECT_DIR$/house-biz/src/main/resources/mybatis/mybatis-config.xml" afterPath="$PROJECT_DIR$/house-biz/src/main/resources/mybatis/mybatis-config.xml" />
-      <change beforePath="$PROJECT_DIR$/house-biz/target/classes/com/mooc/house/biz/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/house-biz/target/classes/com/mooc/house/biz/mapper/UserMapper.class" />
-      <change beforePath="$PROJECT_DIR$/house-biz/target/classes/com/mooc/house/biz/service/UserService.class" afterPath="$PROJECT_DIR$/house-biz/target/classes/com/mooc/house/biz/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/house-biz/target/classes/mapper/user.xml" afterPath="$PROJECT_DIR$/house-biz/target/classes/mapper/user.xml" />
-      <change beforePath="$PROJECT_DIR$/house-biz/target/classes/mybatis/mybatis-config.xml" afterPath="$PROJECT_DIR$/house-biz/target/classes/mybatis/mybatis-config.xml" />
-      <change beforePath="$PROJECT_DIR$/house-common/house-common.iml" afterPath="$PROJECT_DIR$/house-common/house-common.iml" />
-      <change beforePath="$PROJECT_DIR$/house-common/pom.xml" afterPath="$PROJECT_DIR$/house-common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/model/User.java" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/model/User.java" />
-      <change beforePath="$PROJECT_DIR$/house-common/target/classes/com/mooc/house/common/model/User.class" afterPath="$PROJECT_DIR$/house-common/target/classes/com/mooc/house/common/model/User.class" />
-      <change beforePath="$PROJECT_DIR$/house-parent.iml" afterPath="$PROJECT_DIR$/house-parent.iml" />
-      <change beforePath="$PROJECT_DIR$/house-web/house-web.iml" afterPath="$PROJECT_DIR$/house-web/house-web.iml" />
-      <change beforePath="$PROJECT_DIR$/house-web/pom.xml" afterPath="$PROJECT_DIR$/house-web/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/HouseWebApplication.java" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/HouseWebApplication.java" />
       <change beforePath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/UserController.java" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/house-web/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/test/java/com/mooc/house/web/HouseWebApplicationTests.java" afterPath="$PROJECT_DIR$/house-web/src/test/java/com/mooc/house/web/HouseWebApplicationTests.java" />
-      <change beforePath="$PROJECT_DIR$/house-web/target/classes/application.properties" afterPath="$PROJECT_DIR$/house-web/target/classes/application.properties" />
-      <change beforePath="$PROJECT_DIR$/house-web/target/classes/com/mooc/house/HouseWebApplication.class" afterPath="$PROJECT_DIR$/house-web/target/classes/com/mooc/house/HouseWebApplication.class" />
-      <change beforePath="$PROJECT_DIR$/house-web/target/classes/com/mooc/house/web/controller/UserController.class" afterPath="$PROJECT_DIR$/house-web/target/classes/com/mooc/house/web/controller/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/house-web/target/test-classes/com/mooc/house/web/HouseWebApplicationTests.class" afterPath="$PROJECT_DIR$/house-web/target/test-classes/com/mooc/house/web/HouseWebApplicationTests.class" />
     </list>
     <ignored path="$PROJECT_DIR$/house-web/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="86" column="52" lean-forward="false" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
+            <state relative-caret-position="291">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#713#729#1" expanded="true" />
@@ -114,67 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/interceptor/AuthInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebMvcConf.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/interceptor/WebMvcConf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="31" column="62" lean-forward="false" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthActionInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/interceptor/AuthActionInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/interceptor/UserContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-              <folding>
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house-common/src/main/java/com/mooc/house/common/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1932">
-              <caret line="154" column="16" lean-forward="false" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="16" />
-              <folding>
-                <element signature="e#2410#2411#0" expanded="true" />
-                <element signature="e#2437#2438#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="38" />
+            <state relative-caret-position="189">
+              <caret line="128" column="24" lean-forward="false" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -240,13 +104,13 @@
         <option value="$PROJECT_DIR$/house-web/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/HouseWebApplication.java" />
         <option value="$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/MailService.java" />
-        <option value="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/UserService.java" />
         <option value="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/UserHelper.java" />
         <option value="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/interceptor/UserContext.java" />
         <option value="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/interceptor/AuthActionInterceptor.java" />
         <option value="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/interceptor/AuthInterceptor.java" />
         <option value="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/interceptor/WebMvcConf.java" />
+        <option value="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/UserService.java" />
       </list>
     </option>
   </component>
@@ -291,6 +155,31 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaInjectionPointsAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -599,7 +488,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -748,18 +637,27 @@
       <option name="presentableId" value="Default" />
       <updated>1526126030402</updated>
       <workItem from="1526126031863" duration="4131000" />
-      <workItem from="1526191708539" duration="9143000" />
+      <workItem from="1526191708539" duration="9839000" />
     </task>
+    <task id="LOCAL-00001" summary="新增用户注册（包块有限验证），用户登录（过滤器）功能">
+      <created>1526204533648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526204533648</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13274000" />
+    <option name="totallyTimeSpent" value="13970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4640523" sideWeight="0.73827535" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -775,7 +673,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7614379" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4640523" sideWeight="0.26172465" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27760968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -794,8 +692,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增用户注册（包块有限验证），用户登录（过滤器）功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增用户注册（包块有限验证），用户登录（过滤器）功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -817,8 +745,8 @@
         <state relative-caret-position="322">
           <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="26" />
           <folding>
-            <element signature="e#816#817#0" expanded="false" />
-            <element signature="e#861#862#0" expanded="false" />
+            <element signature="e#866#867#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1180,19 +1108,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="86" column="52" lean-forward="false" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#713#729#1" expanded="true" />
-            <element signature="e#1756#1757#0" expanded="true" />
-            <element signature="e#1796#1797#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/UserHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1243,9 +1158,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="38" />
+        <state relative-caret-position="189">
+          <caret line="128" column="24" lean-forward="false" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#713#729#1" expanded="true" />
+            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#1796#1797#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
