@@ -20,11 +20,13 @@
     <!--配置类型别名，可以在xml中用别名取代全限定名-->
     <typeAliases>
        <typeAlias type="com.mooc.house.common.model.User" alias="user" />
+       <typeAlias type="com.mooc.house.common.model.Agency" alias="agency" />
     </typeAliases>
 
     <!--加载mapper文件-->
     <mappers>
        <mapper resource="mapper/user.xml" />
+       <mapper resource="mapper/agency.xml" />
     </mappers>
 
 </configuration>

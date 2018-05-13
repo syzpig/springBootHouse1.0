@@ -14,4 +14,16 @@ import java.util.List;
 @Mapper
 public interface UserMapper {
     List<User>  selectUsers();
+
+    /**
+     *批量插入
+     */
+    int insertBatch(User user);
+    int insert(User account);
+
+    int delete(String email);
+
+    int update(User updateUser);
+
+    List<User> selectUsersByQuery(User user);
 }

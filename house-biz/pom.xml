@@ -20,11 +20,11 @@
 	</properties>
 
 	<dependencies>
-		<!--<dependency>
+		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
-		</dependency>-->
+		</dependency>
         <!--引用house-common模块-->
 		<dependency>
 			<groupId>com.mooc.house</groupId>
@@ -49,6 +49,15 @@
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>1.2.0</version>
 		</dependency>
-
+        <!--加入springboot的启步依赖-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.8.3</version>
+		</dependency>
 	</dependencies>
 </project>
