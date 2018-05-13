@@ -41,6 +41,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!--引入健康监控插件-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -81,19 +86,28 @@
              案例：https://blog.csdn.net/taiyangdao/article/details/75303181
              -->
             <plugin>
+               <!-- //配置spring maven插件，帮我们打包成完整的jar,且是可执行的-->
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.mooc.house.web.HouseWebApplication</mainClass>
-                    <layout>ZIP</layout>
+                    <mainClass>com.mooc.house.web.HouseWebApplication</mainClass><!--//配置启动类-->
+                    <layout>ZIP</layout><!--打成是可执行的架包-->
                 </configuration>
+               <!-- 配置以何种方式去执行-->
                 <executions>
                     <execution>
                         <goals>
-                            <goal>repackage</goal>
+                            <goal>repackage</goal><!--repackage指创建可执行的架包-->
                         </goals>
                     </execution>
                 </executions>
+                <!--打成架包命令mvn clean package -DskipTests  DskipTests指是跳过单元测试
+                执行完在house-web中target中可看到jar包
+                然后执行 java -jar house-web-1.0.0-SNAPSHOT.jar  发布启动项目，在本地发布，即可打开浏览器运行
+                这种方式是在前台执行，在后台执行命令如下：
+                nohup java -jar house-web-1.0.0-SNAPSHOT.jar &
+                注意前面命令首先要进入target目录下，就是jar所在路径
+                -->
             </plugin>
         </plugins>
     </build>
