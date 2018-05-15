@@ -2,7 +2,7 @@ package com.mooc.house.web.controller;
 
 import com.mooc.house.biz.service.AgencyService;
 import com.mooc.house.biz.service.UserService;
-import com.mooc.house.common.HashUtils.HashUtils;
+import com.mooc.house.common.utils.HashUtils;
 import com.mooc.house.common.constants.CommonConstants;
 import com.mooc.house.common.model.User;
 import com.mooc.house.common.result.ResultMsg;
@@ -157,4 +157,45 @@ public class UserController {
         return "redirect:/accounts/profile?" + ResultMsg.successMsg("更新成功").asUrlParams();
     }
 
+    /**
+     * 忘记密码
+     * @param username
+     * @param modelMap
+     * @return
+     */
+    @RequestMapping("accounts/remember")
+    public String remember(String username, ModelMap modelMap) {
+        if (StringUtils.isBlank(username)) {
+            return "redirect:/accounts/signin?" + ResultMsg.errorMsg("邮箱不能为空").asUrlParams();
+        }
+        userService.resetNotify(username);
+        modelMap.put("email", username);
+        return "/user/accounts/remember";
+    }
+
+    @RequestMapping("accounts/reset")
+    public String reset(String key,ModelMap modelMap){
+        String email = userService.getResetEmail(key);
+        if (StringUtils.isBlank(email)) {
+            return "redirect:/accounts/signin?" + ResultMsg.errorMsg("重置链接已过期").asUrlParams();
+        }
+        modelMap.put("email", email);
+        modelMap.put("success_key", key);
+        return "/user/accounts/reset";
+    }
+
+    @RequestMapping(value="accounts/resetSubmit")
+    public String resetSubmit(HttpServletRequest req,User user){
+        ResultMsg retMsg = UserHelper.validateResetPassword(user.getKey(), user.getPasswd(), user.getConfirmPasswd());
+        if (!retMsg.isSuccess() ) {
+            String suffix = "";
+            if (StringUtils.isNotBlank(user.getKey())) {
+                suffix = "email=" + userService.getResetEmail(user.getKey()) + "&key=" +  user.getKey() + "&";
+            }
+            return "redirect:/accounts/reset?"+ suffix  + retMsg.asUrlParams();
+        }
+        User updatedUser =  userService.reset(user.getKey(),user.getPasswd());
+        req.getSession(true).setAttribute(CommonConstants.USER_ATTRIBUTE, updatedUser);
+        return "redirect:/index?" + retMsg.asUrlParams();
+    }
 }

@@ -2,8 +2,8 @@ package com.mooc.house.biz.service;
 
 import com.google.common.collect.Lists;
 import com.mooc.house.biz.mapper.UserMapper;
-import com.mooc.house.common.HashUtils.BeanHelper;
-import com.mooc.house.common.HashUtils.HashUtils;
+import com.mooc.house.common.utils.BeanHelper;
+import com.mooc.house.common.utils.HashUtils;
 import com.mooc.house.common.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

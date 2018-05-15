@@ -52,6 +52,7 @@
             <artifactId>spring-boot-starter</artifactId>
             <exclusions>
                 <exclusion>
+                    <!-- 想要配置log4j2，就要先去除logging包 -->
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-logging</artifactId>
                 </exclusion>
@@ -60,14 +61,22 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+       <!-- Disruptor是一个用于在线程间通信的高效低延时的消息组件，并发框架，它像个增强的队列，并且它是让LMAX Exchange跑的如此之快的一个关键创新
+        场景：当汽车进入停车场时，系统首先会记录汽车信息。同时也会发送消息到其他系统处理相关业务，最后发送短信通知车主收费开始。-->
+        <dependency>
+            <groupId>com.lmax</groupId>
+            <artifactId>disruptor</artifactId>
+            <version>3.3.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-log4j2</artifactId>
-        </dependency>
+
     </dependencies>
 
     <build>

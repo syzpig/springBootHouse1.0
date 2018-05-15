@@ -3,6 +3,8 @@ package com.mooc.house.biz.service;
 import com.mooc.house.biz.mapper.AgencyMapper;
 import com.mooc.house.common.model.Agency;
 import com.mooc.house.common.model.User;
+import com.mooc.house.common.page.PageData;
+import com.mooc.house.common.page.PageParams;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -24,7 +26,7 @@ public class AgencyService {
    * @param
    * @return
    */
- /* public User getAgentDeail(Long userId) {
+  public User getAgentDeail(Long userId) {
     User user = new User();
     user.setId(userId);
     user.setType(2);
@@ -42,7 +44,7 @@ public class AgencyService {
       return agent;
     }
     return null;
-  }*/
+  }
 
   private void setImg(List<User> list) {
     list.forEach(i -> {
@@ -51,12 +53,12 @@ public class AgencyService {
 
   }
 
- /* public PageData<User> getAllAgent(PageParams pageParams) {
+  public PageData<User> getAllAgent(PageParams pageParams) {
     List<User> agents = agencyMapper.selectAgent(new User(), pageParams);
     setImg(agents);
     Long count = agencyMapper.selectAgentCount(new User());
     return PageData.buildPage(agents, count, pageParams.getPageSize(), pageParams.getPageNum());
-  }*/
+  }
 
   public Agency getAgency(Integer id) {
     Agency agency = new Agency();

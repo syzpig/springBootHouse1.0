@@ -1,4 +1,4 @@
-package com.mooc.house.common.HashUtils;
+package com.mooc.house.common.utils;
 
 import com.google.common.hash.HashCode;
 import com.google.common.hash.HashFunction;

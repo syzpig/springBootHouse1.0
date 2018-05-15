@@ -1,4 +1,4 @@
-package com.mooc.house.common.HashUtils;
+package com.mooc.house.common.utils;
 
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.beanutils.PropertyUtils;
